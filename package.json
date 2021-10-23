@@ -1,19 +1,19 @@
 {
-  "name": "@reusejs/react-buttons",
-  "version": "0.0.12",
-  "description": "A library of reactjs buttons",
+  "name": "@reusejs/react-display-texts",
+  "version": "0.0.1",
+  "description": "A library of reactjs typography texts",
   "main": "build/index.js",
   "files": [
     "build"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reusejs/react-buttons.git"
+    "url": "git+https://github.com/reusejs/react-display-texts.git"
   },
   "bugs": {
-    "url": "https://github.com/reusejs/react-buttons/issues"
+    "url": "https://github.com/reusejs/react-display-texts/issues"
   },
-  "homepage": "https://github.com/reusejs/react-buttons",
+  "homepage": "https://github.com/reusejs/react-display-texts",
   "author": "Rajiv Seelam",
   "license": "MIT",
   "scripts": {
