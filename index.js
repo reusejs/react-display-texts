@@ -1,6 +1,7 @@
-import BaseButton from "./src/Base";
-import BlueButton from "./src/BlueButton";
-import BlueOutlineButton from "./src/BlueOutlineButton";
-import GrayButton from "./src/GrayButton";
+import FormHeading from "./src/FormHeading";
+import FormLabel from "./src/FormLabel";
+import Link from "./src/Link";
+import PageTitle from "./src/PageTitle";
+import Paragraph from "./src/Paragraph";
 
-export { BaseButton, BlueButton, GrayButton, BlueOutlineButton };
+export { FormHeading, FormLabel, Link, PageTitle, Paragraph };

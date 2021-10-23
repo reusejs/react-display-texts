@@ -5,10 +5,11 @@ import postcss from "rollup-plugin-postcss";
 export default {
   input: [
     "index.js",
-    "src/Base/index.js",
-    "src/BlueButton/index.js",
-    "src/BlueOutlineButton/index.js",
-    "src/GrayButton/index.js",
+    "src/FormHeading/index.js",
+    "src/FormLabel/index.js",
+    "src/Link/index.js",
+    "src/PageTitle/index.js",
+    "src/Paragraph/index.js",
   ],
   output: [
     {
