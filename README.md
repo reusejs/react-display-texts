@@ -6,7 +6,7 @@
 [![Storybook][storybook-action-image]][storybook-action-url]
 [![NPM Publish][npm-publish-action-image]][npm-publish-action-url]
 
-# React Buttons
+# React Display Texts
 
 View Storybook at: https://master--617798f41315d7003acd9c97.chromatic.com.
 
