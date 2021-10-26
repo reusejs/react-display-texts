@@ -1,12 +1,18 @@
 import React from 'react';
 import "../tailwind.css";
+import classNames from '../classNames';
 
 export default function index({ children, labelCorner = () => {}, ...props }) {
+
+  const wrapperAlignmentStyles = props.wrapperAlignmentStyles || 'flex justify-between';
+
+  const labelStyles = props.labelStyles || 'block text-sm font-normal text-gray-900 dark:text-gray-200';
+
   return (
-    <div className="flex justify-between">
+    <div className={classNames(wrapperAlignmentStyles)}>
       <label
         htmlFor={props.htmlFor}
-        className="block text-sm font-normal text-gray-900 dark:text-gray-200"
+        className={classNames(labelStyles)}
       >
         {children}
       </label>

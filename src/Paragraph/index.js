@@ -1,18 +1,15 @@
 import React from 'react';
 import "../tailwind.css";
-
-function classNames(...classes) {
-  return classes.filter(Boolean).join(" ");
-}
+import classNames from '../classNames';
 
 export default function index({ children, ...props }) {
   const fontSize = props.fontSize || 'text-base';
+  const paragraphStyles = props.paragraphStyles || 'block font-normal text-gray-500 dark:text-white';
 
   return (
     <p
       className={classNames(
-        props.className,
-        'block font-normal text-gray-500 dark:text-white',
+        paragraphStyles,
         fontSize
       )}
     >

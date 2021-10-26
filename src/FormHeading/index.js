@@ -1,6 +1,12 @@
 import React from 'react';
 import "../tailwind.css";
+import classNames from '../classNames';
 
 export default function index({ children, ...props }) {
-  return <h3 className="text-2xl font-medium text-gray-800">{children}</h3>;
+
+  const textAndFontStyles =
+    props.textAndFontStyles ||
+    "text-2xl font-medium text-gray-800";
+
+  return <h3 className={classNames(textAndFontStyles)}>{children}</h3>;
 }
